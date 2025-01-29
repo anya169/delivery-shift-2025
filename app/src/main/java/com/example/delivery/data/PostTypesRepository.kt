@@ -43,7 +43,10 @@ class PostTypesRepository {
             level = HttpLoggingInterceptor.Level.BODY
         }
 
-    private val loanApi by lazy {
+    private val postTypesApi by lazy {
         retrofit.create(PostTypesApi::class.java)
     }
+
+    suspend fun getAll(): List<PostTypeItem> =
+        postTypesApi.getAll()
 }

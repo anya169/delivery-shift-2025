@@ -1,3 +1,9 @@
 package com.example.delivery.data
 
-interface PostTypesApi
+import retrofit2.http.GET
+
+interface PostTypesApi{
+
+    @GET("postType")
+    suspend fun getAll(): List<PostTypeItem>
+}

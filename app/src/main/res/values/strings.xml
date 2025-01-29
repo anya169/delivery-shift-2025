@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Delivery</string><string name="error_title">Произошла ошибка</string>
+    <string name="error_try_again">Повторить</string>
+    <string name="error_unknown_error">Неизвестная ошибка</string>
+
+    <!--	Post Types Screen -->
+    <string name="postTypes_title">Размер посылки</string>
+</resources>

@@ -5,4 +5,5 @@
 
     <!--	Post Types Screen -->
     <string name="postTypes_title">Размер посылки</string>
+    <string name="cities_title">Куда</string>
 </resources>

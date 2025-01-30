@@ -22,7 +22,7 @@ import kotlinx.coroutines.launch
 @Composable
 fun PostTypesScreen(
     repository: PostTypesRepository,
-    onItemSelected: (loanId: Long) -> Unit,
+    onItemSelected: (postTypeId: Long) -> Unit,
 ) {
     val scope = rememberCoroutineScope()
     var postTypesState by remember { mutableStateOf<postTypesState>(postTypesState.Initial) }

@@ -22,7 +22,7 @@ import com.example.delivery.R
 import com.example.delivery.data.PostTypeItem
 
 
-/*@Composable
+@Composable
 fun ContentComponent(
     postTypes: List<PostTypeItem>,
     onItemClicked: (postTypeId: Long) -> Unit,
@@ -35,7 +35,7 @@ fun ContentComponent(
             )
         }
     }
-}*/
+}
 
 @Composable
 private fun PostTypeItem(
